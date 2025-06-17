@@ -1,0 +1,68 @@
+.hidden{
+    display:none !important;
+}
+
+
+#btn_adicionar{
+   background: linear-gradient(to bottom, #03045e,#023e8a);
+    color: white;
+    width: 25%;
+    height: 20%;
+    border-radius: 4px;
+    cursor:pointer;
+
+}
+
+#btn_adicionar:hover{
+  color:rgb(53, 56, 58);
+  background-color: rgba(252, 165, 204, 0.47);
+}
+
+/* lista de compras*/
+
+#container{
+  max-width: 500px;
+  width: 100%;
+   
+}
+#container h1{
+    color:  #03045e;
+    margin-bottom: 15px;
+    font-size: 24px;
+    
+}
+#container ul li{
+    color:  #03045e;
+    margin-bottom: 15px;
+    font-size: 24px;
+    
+}
+#btn_adicionar_item{
+   background: linear-gradient(to bottom, #00b4d8, #000814);
+    color: white;
+    width: 25%;
+    height: 20%;
+  
+}
+#btn_adicionar_item:hover{
+  color:rgb(53, 56, 58);
+  background-color: rgba(252, 165, 204, 0.47);
+}
+
+.lixeira{
+  display: flex;
+  margin-top : 20px;
+  border: 2px dashed #f8f9fa;
+
+
+   justify-content:start;
+   transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.lixeira.hover{
+  color: #adc178;
+  background-color: #ffe5e5;
+   transform: scale(1.2);
+}
+.hidden{
+  color: darkorange;
+}
